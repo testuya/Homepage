@@ -1,0 +1,47 @@
+html,body{
+	height:100%;
+	width: 100%;
+}
+
+/*topに関するスタイル*/
+#top{
+	position: fixed;
+	height: 20%;
+	width: 100%;
+}
+
+#menu{
+	height:100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:30%;
+}
+
+.home,.about,.product,.blog,.link{
+	position: relative;
+	padding: 2%;
+	float:left;
+	font-size: 100%;
+}
+
+/*内容に関するスタイル*/
+#content{
+	position:absolute;
+	top:20%;
+	height:75%;
+	width: 100%;
+}
+
+#canvas{
+	width: 100%;
+	height: 100%;
+}
+
+/*フッターに関するスタイル*/
+#footer{
+	position:absolute;
+	right:10%;
+	bottom:0;
+	height:5%;
+}
