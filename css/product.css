@@ -1,0 +1,23 @@
+/*内容に関するスタイル*/
+#content{
+	position:absolute;
+	top:20%;
+	height:75%;
+	width: 100%;
+}
+
+#introduction{
+	text-align: center;
+}
+
+.cafe{
+	float:left;
+}
+
+
+
+.info{
+	font-size: 1em;
+	word-break:break-all;
+}
+

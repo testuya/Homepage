@@ -1,14 +1,14 @@
 /*キャンバスの設定とシーン作成*/
-var canvas = document.getElementById('canvas'); // div要素の取得
-var renderer = new THREE.WebGLRenderer(); // レンダラーの生成
-renderer.setSize(canvas.clientWidth, canvas.clientHeight); // レンダラーのサイズをdivのサイズに設定
-renderer.setClearColor(0xffffff, 1.0); // レンダラーの背景色を黒色（不透過）に設定
-canvas.appendChild(renderer.domElement); // div領域にレンダラーを配置
+var canvas = document.getElementById('canvas'); 
+var renderer = new THREE.WebGLRenderer(); // レンダラー生成
+renderer.setSize(canvas.clientWidth, canvas.clientHeight); // レンダラーのサイズを設定
+renderer.setClearColor(0xffffff, 1.0); //背景を白に設定
+canvas.appendChild(renderer.domElement); // レンダラーを配置
 var scene = new THREE.Scene(); // シーンの生成 
 
 /*カメラの処理*/
-var fov = 45; // 視野角：0～90
-var aspect = canvas.clientWidth / canvas.clientHeight; // 縦横比
+var fov = 45; // 視野角
+var aspect = canvas.clientWidth / canvas.clientHeight; 
 var near = 1; // 視体積手前までの距離
 var far = 1000; // 視体積奥までの距離
 var camera = new THREE.PerspectiveCamera(fov, aspect, near, far); // カメラの生成

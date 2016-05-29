@@ -33,15 +33,15 @@ html,body{
 	width: 100%;
 }
 
-#canvas{
-	width: 100%;
-	height: 100%;
+.name{
+	float:right;
 }
 
 /*フッターに関するスタイル*/
 #footer{
 	position:absolute;
-	right:10%;
 	bottom:0;
 	height:5%;
+	width: 100%;
+	text-align: center;
 }

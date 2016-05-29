@@ -1,0 +1,44 @@
+html,body{
+	height:100%;
+	width: 100%;
+	font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
+}
+
+/*topに関するスタイル*/
+#top{
+	position: fixed;
+	height: 20%;
+	width: 100%;
+}
+
+#menu{
+	height:100%;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:25%;
+}
+
+a{
+	text-decoration: none;
+	color: #808080;
+}
+
+a:hover { 
+	color:#000000;
+}
+.home,.about,.product,.blog{
+	position: relative;
+	padding: 2%;
+	float:left;
+	font-size: 2em;
+}
+
+/*フッターに関するスタイル*/
+#footer{
+	position:absolute;
+	bottom:0;
+	height:5%;
+	width: 100%;
+	text-align: center;
+}
