@@ -1,23 +1,58 @@
 /*内容に関するスタイル*/
 #content{
 	position:absolute;
-	top:20%;
+	top:30%;
 	height:75%;
-	width: 100%;
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
 #introduction{
 	text-align: center;
 }
 
-.cafe{
+.description_title{
+	font-size: 2em;
+	color: #00AEE0;
+}
+
+img{
+	width:60%;
 	float:left;
 }
 
 
-
-.info{
-	font-size: 1em;
-	word-break:break-all;
+#left,#left_hover{
+	-webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
 
+#right,#right_hover{
+	right:2%;
+}
+
+#left,#left_hover{
+	left:2%;
+}
+
+#right,#right_hover,#left,#left_hover{
+	position: absolute;
+	top:50%;
+	width:8%;
+}
+
+#right:hover,#left:hover{
+	visibility: hidden;
+}
+
+#content2{
+	position: relative;
+	left:-20%;
+	visibility: hidden;
+	
+}
